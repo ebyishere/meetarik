@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About Restaurant</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 50px;
+  text-align: left;
+  padding-left: 5;
+  background: #8ca0a7;
+  color: rgb(89, 67, 67);
+  background-image: url("wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 400px auto;
+  background-position: top right;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.back-home-btn {
+  display: inline-block;
+  background-color: black; /* changed to black */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.back-home-btn:hover {
+  background-color: #333; /* slightly lighter black on hover */
+}
+
+
+
+</style>
+</head>
+<body>
+
+<header>
+<div class="header">
+  <h1>Background story about <br> this restaurant !</h1>
+  <p>A little story that makes this restaurant become <br> more popular and some missions & values about this restaurant  ...</p>
+</div>
+</header>
+
+<main>
+<div class="row">
+  <div class="side">
+    <h3>Restaurant's Missions & Values :</h3>
+    <h4>Mission (In‑store Promise) :</h4>
+    <p>	•	Deliver authentic China Muslim cuisine that Malaysians love, featuring freshly made hand‑pulled noodles (Lanzhou style) .</p>
+    <p> •	Create a welcoming, customer‑focused environment, blending tradition with dedication to quality, affordability, and culinary innovation .</p><br>
+    <h4>Restaurant Values :</h4>
+    <p>1.	Innovation in Tradition
+• Continuously push culinary boundaries by merging classic China‑Muslim recipes with modern techniques and a distinct Malaysian twist  .</p>
+    <p>2.	Immersive Dining Experience
+• Offer more than a meal: engage customers through the spectacle of noodle‑pulling and open‑kitchen energy, letting guests participate in the story behind each dish  .</p>
+    <p>	3.	Quality × Affordability
+• Commit to top‑notch ingredients and preparation without breaking the bank, ensuring everyone can enjoy a satisfying bowl .</p>
+  
+</div>
+  
+  <div class="main">
+
+    <h2>Our Restaurant's Logo : </h2>
+    <h5>We were using this logo since the first time we open our restaurant ...</h5>
+    <div class="img">
+      <img src="images/logoo.jpg" alt="logo" style="width:150px; height: 150px;">
+    </div><br>
+    <h2>Restaurant's history</h2>
+    <p>The Chinese Muslim Crescent Restaurant in Tanjung Malim, Perak, officially opened around January 15, 2020. Based on customer reviews, the restaurant began attracting attention as early as its second day of operation. As of June 2025, it has been running for approximately five and a half years.<br>
+
+Since its opening, the restaurant has operated consistently every day from 11 a.m. to 10 p.m., with a short break during Friday afternoons for Jumaat prayers. It quickly gained popularity among locals for its authentic hand-pulled noodles (mee tarik), rich and spicy beef soup, and refreshing fresh juices-especially carrot juice mixed with fresh milk.<br>
+
+Customers also enjoy the open kitchen concept, where they can watch the noodle-pulling process live. Despite being relatively new, the restaurant has firmly established itself as one of the favorite dining spots in Tanjung Malim, thanks to its quality, portion size, and unique offerings.</p>
+    <br>
+  <div class="img">
+      <img src="images/historyy.jpg" alt="restaurant" style="width: 450px; height: 250px;">
+      <img src="images/historyy2.jpg" alt="restaurant" style="width: 450px; height: 250px;">
+  
+    </div>
+  </div>
+  
+  <a href="index.html" class="back-home-btn">← Back to Home</a>
+
+</main>
+
+  <footer>
+    <p>&copy; 2025 MEE TARIK TANJUNG MALIM</p>
+  </footer>
+
+</body>
+</html>
