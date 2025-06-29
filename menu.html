@@ -99,6 +99,42 @@
         align-items: center;
       }
     }
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.back-home-btn {
+  display: inline-block;
+  background-color: black; /* changed to black */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.back-home-btn:hover {
+  background-color: #333; /* slightly lighter black on hover */
+}
+	  
   </style>
 </head>
    
@@ -106,9 +142,11 @@
 
 
 <body>
-
+<header>
   <h2>Our Menu</h2>
+</header>
 
+<main>
   <!-- Category 1: Vegetables -->
   <div class="category">
     <h3>Vegetable Dishes</h3>
@@ -425,6 +463,8 @@
 	  
     </div>
   </div>
+<a href="index.html" class="back-home-btn">← Back to Home</a>
+</main>
     <footer style="
   position: fixed;
   bottom: 0;
