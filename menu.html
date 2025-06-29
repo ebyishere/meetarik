@@ -93,166 +93,363 @@
   box-sizing: border-box;
 }
 
-    @media (max-width: 600px) {
+    @media (max-width: 600px) 
       .menu {
         flex-direction: column;
-        align-items: center-left;
+        align-items: center;
       }
     }
-	
-.menu-grid {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap; 
-  justify-content: center-left;
-}
-
-
-footer {
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1;
-  padding: 20px;
-}
-
-.back-home-btn {
-  display: inline-block;
-  background-color: black; /* changed to black */
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 20px;
-  transition: background-color 0.3s;
-}
-
-.back-home-btn:hover {
-  background-color: #333; /* slightly lighter black on hover */
-}
-
   </style>
 </head>
+   
+</div>
+
+
 <body>
 
   <h2>Our Menu</h2>
-  
-<main>
-  <!-- Category 1 -->
+
+  <!-- Category 1: Vegetables -->
   <div class="category">
     <h3>Vegetable Dishes</h3>
     <div class="menu">
+
       <div class="menu-item">
         <img src="images/gbep.jpg" alt="Grilled Bean with Eggplant">
         <h4>Grilled Bean with Eggplant</h4>
-        <p>RM22(small) RM26(Large) </p>
-        <button class="order-btn">Order</button>
+        <p>RM22 (Small) RM26 (Large)</p>
       </div>
 
       <div class="menu-item">
         <img src="images/wscp.jpg" alt="Water Spinach with Chopped Pepper">
         <h4>Water Spinach with Chopped Pepper</h4>
-        <p>RM16(Small) RM22(Large) </p>
-        <button class="order-btn">Order</button>
+        <p>RM16 (Small) RM22 (Large)</p>
+       
       </div>
-	  
-	  <div class="menu-item">
+
+      <div class="menu-item">
         <img src="images/sewt.jpg" alt="Scrambled Eggs with Tomatoes">
         <h4>Scrambled Eggs with Tomatoes</h4>
-        <p>RM15(Small) RM26(Large)</p>
-        <button class="order-btn">Order</button>
+        <p>RM15 (Small) RM26 (Large)</p>
+        
       </div>
-	  
-	 <div class="menu-item">
+
+      <div class="menu-item">
         <img src="images/fewf.jpg" alt="Fried Egg with Fungus">
         <h4>Fried Egg with Fungus</h4>
-        <p>RM15(Small) RM27(Large)</p>
-        <button class="order-btn">Order</button>
+        <p>RM15 (Small) RM27 (Large)</p>
+       
       </div>
-	  
-	  <div class="menu-item">
+
+      <div class="menu-item">
         <img src="images/sfc.jpg" alt="Stir-fried Cabbage">
         <h4>Stir-fried Cabbage</h4>
-        <p>RM15(Small) RM22(Large)</p>
-        <button class="order-btn">Order</button>
+        <p>RM15 (Small) RM22 (Large)</p>
+        
       </div>
-	  
-	  <div class="menu-item">
+
+      <div class="menu-item">
         <img src="images/sfl.jpg" alt="Stir-fried Lettuce">
         <h4>Stir-fried Lettuce</h4>
-        <p>RM16(Small) RM25(Large)</p>
-        <button class="order-btn">Order</button>
+        <p>RM16 (Small) RM25 (Large)</p>
+       
       </div>
-	  
-	  <div class="menu-item">
+
+      <div class="menu-item">
         <img src="images/gcpc.jpg" alt="Griddle Cooked Potato Chips">
         <h4>Griddle Cooked Potato Chips</h4>
-        <p>RM18(Small) RM26(Large)</p>
-        <button class="order-btn">Order</button>
+        <p>RM18 (Small) RM26 (Large)</p>
+        
       </div>
-	  
-	  <div class="menu-item">
+
+      <div class="menu-item">
         <img src="images/cscp.jpg" alt="Sour and Spicy Shredded Potato">
         <h4>Sour and Spicy Shredded Potato</h4>
-        <p>RM15(Small) RM23(Large)</p>
-        <button class="order-btn">Order</button>
+        <p>RM15 (Small) RM23 (Large)</p>
+        
+      </div>
+
+      <div class="menu-item">
+        <img src="images/gnmss.jpg" alt="Golden Needle Mushroom and Spinach Salad">
+        <h4>Golden Needle Mushroom and Spinach Salad</h4>
+        <p>RM18 (Small) RM26 (Large)</p>
+        
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Category 2: Meats -->
+  <div class="category">
+    <h3>Meat Dishes</h3>
+    <div class="menu">
+
+      <div class="menu-item">
+        <img src="images/fsm.jpg" alt="Fried Seafood with Mushroom">
+        <h4>Fried Seafood with Mushroom</h4>
+        <p>RM18 (Small) RM26 (Large)</p>
+       
+      </div>
+
+      <div class="menu-item">
+        <img src="images/bs.jpg" alt="Beef Salad">
+        <h4>Beef Salad</h4>
+        <p>RM22 (Small) RM32 (Large)</p>
+       
+      </div>
+
+      <div class="menu-item">
+        <img src="images/scnc.jpg" alt="Hand-Shredded Native Chicken">
+        <h4>Hand-Shredded Native Chicken</h4>
+        <p>RM22 (Small) RM30 (Large)</p>
+        
+      </div>
+
+      <div class="menu-item">
+        <img src="images/slc.jpg" alt="Spicy Lamb Chop">
+        <h4>Spicy Lamb Chop</h4>
+        <p>RM48(Small) RM68 (Large)</p>
+        
       </div>
 	  
 	  <div class="menu-item">
-        <img src="images/gnmss.jpg" alt="Golden Needle Mushroom and Spinach Salad">
-        <h4>Golden Needle Mushroom and Spinach Salad</h4>
-        <p>RM18(Small) RM26(Large)</p>
-        <button class="order-btn">Order</button>
+        <img src="images/sbc.jpg" alt="Stewed Beef in Casserole">
+        <h4>Stewed Beef in Casserole</h4>
+        <p>RM28(Small) RM38 (Large)</p>
+        
+      </div>
+	  
+	  <div class="menu-item">
+        <img src="images/kpc.jpg" alt="Kung Pao Chicken">
+        <h4>Kung Pao Chicken</h4>
+        <p>RM25(Small) RM32 (Large)</p>
+   
+      </div>
+	  
+	  <div class="menu-item">
+        <img src="images/fss.jpg" alt="Fried Fish Slices with Sweet and Sour Sauce">
+        <h4>Fried Fish Slices with Sweet and Sour Sauce</h4>
+        <p>RM28(Small) RM59 (Large)</p>
+      </div>
+	  
+	  <div class="menu-item">
+        <img src="images/xjbp.jpg" alt="Xing Jiang Big Plate Chicken">
+        <h4>Xing Jiang Big Plate Chicken</h4>
+        <p>RM38(Small) RM48 (Large)</p>
+       
+      </div>
+	  
+	  <div class="menu-item">
+        <img src="images/dcc.jpg" alt="Dry Chili Chicken">
+        <h4>Dry Chili Chicken</h4>
+        <p>RM38(Small) RM48 (Large)</p>
+        
+      </div>
+	  
+	  <div class="menu-item">
+        <img src="images/sms.jpg" alt="Sauted Mutton Slice with Scallion">
+        <h4>Sauted Mutton Slice with Scallion </h4>
+        <p>RM29(Small) RM39 (Large)</p>
+        
+      </div>
+	  
+	  <div class="menu-item">
+        <img src="images/fbck.jpg" alt="Fried Beef cubes with King Oyster Mushroom">
+        <h4>Fried Beef cubes with King Oyster Mushroom </h4>
+        <p>RM29(Small) RM42 (Large)</p>      
+      </div>
+	  
+<!-- Category 3: Noodles -->
+  <div class="category">
+    <h3>Noodle</h3>
+    <div class="menu">
+
+      <div class="menu-item">
+        <img src="images/bn.jpg" alt="Beef Noodle">
+        <h4>Beef Noodle</h4>
+        <p>RM10</p>      
+      </div>
+	  
+	  <div class="menu-item">
+        <img src="images/nsf.jpg" alt="Noodle with Stir Fried Beef Soup ">
+        <h4>Noodle with Stir Fried Beef Soup </h4>
+        <p>RM13</p>      
+      </div>
+	  
+<!-- Category 3: Soup-->
+  <div class="category">
+    <h3>Soup</h3>
+    <div class="menu">
+
+      <div class="menu-item">
+        <img src="images/tdf.jpg" alt="Tremella and Dice Fruit Soup">
+        <h4>Tremella and Dice Fruit Soup</h4>
+        <p>RM10(Small) RM18(Large) </p>      
+      </div>
+	  
+	  <div class="menu-item">
+        <img src="images/sss.jpg" alt="Shrimp and Seaweed Soup">
+        <h4>Shrimp and Seaweed Soup</h4>
+        <p>RM8(Small) RM16(Large) </p>      
+      </div>
+	  
+	  <div class="menu-item">
+        <img src="images/tes.jpg" alt="Tomato and Egg Soup">
+        <h4>Tomato and Egg Soup</h4>
+        <p>RM8(Small) RM16(Large) </p>      
+      </div>
+
+<!-- Category 3: Pastry-->
+  <div class="category">
+    <h3>Pastry</h3>
+    <div class="menu">
+
+      <div class="menu-item">
+        <img src="images/dg.jpg" alt="Dumpling">
+        <h4>Dumpling</h4>
+        <p>RM10(Small) RM15(Large) </p>      
+      </div>
+	  
+	  <div class="menu-item">
+        <img src="images/fsb.jpg" alt="Fry Steamed Bun">
+        <h4>Fry Steamed Bun</h4>
+        <p>RM16 </p>      
+      </div>
+	  
+	  <div class="menu-item">
+        <img src="images/fsr.jpg" alt="Fry Spring Rolls">
+        <h4>Fry Spring Rolls</h4>
+        <p>RM16 </p>      
+      </div>
+	  
+	  <div class="menu-item">
+        <img src="images/pn.jpg" alt="Plain Noodle">
+        <h4>Plain Noodle</h4>
+        <p>RM4 </p>      
+      </div>
+	  
+	  <div class="menu-item">
+        <img src="images/rc.jpg" alt="Rice">
+        <h4>Rice</h4>
+        <p>RM2.50</p>      
+      </div>
+	  
+<!-- Category 3: Drinks-->
+  <div class="category">
+    <h3>Drinks</h3>
+    <div class="menu">
+
+      <div class="menu-item">
+        <h4>Kopi</h4>
+        <p>RM 3.00 </p>      
+      </div>
+	  
+	   <div class="menu-item">
+        <h4>Kopi O</h4>
+        <p>RM 2.00 </p>      
+      </div>
+	  
+	   <div class="menu-item">
+        <h4>Nescafe</h4>
+        <p>RM 4.00 </p>      
+      </div>
+	  
+	   <div class="menu-item">
+        <h4>Teh O</h4>
+        <p>RM 2.50 </p>      
+      </div>
+	  
+	   <div class="menu-item">
+        <h4>Lemon Ais</h4>
+        <p>RM 3.50 </p>      
+      </div>
+	  
+	   <div class="menu-item">
+        <h4>Milo Ais</h4>
+        <p>RM 4.00 </p>      
+      </div>
+	  
+	   <div class="menu-item">
+        <h4>Green Tea</h4>
+        <p>RM 4.00 </p>      
+      </div>
+	  
+	   <div class="menu-item">
+        <h4>Tea Tarik</h4>
+        <p>RM 3.50 </p>      
+      </div>
+	  
+	   <div class="menu-item">
+        <h4>Canned Drink</h4>
+        <p>RM 3.50 </p>      
+      </div>
+	  
+	   <div class="menu-item">
+        <h4>White Water</h4>
+        <p>RM 0.50 </p>      
+      </div>
+	  
+	   <div class="menu-item">
+        <h4>Ice</h4>
+        <p>RM 0.50</p>      
+      </div>
+	  
+	   <div class="menu-item">
+        <h4>Mineral Water </h4>
+        <p>RM 1.00 </p>      
+      </div>
+	
+<!-- Category 3: Tea-->
+  <div class="category">
+    <h3>Tea</h3>
+    <div class="menu">
+	
+	   <div class="menu-item">
+        <img src="images/et.jpg" alt="Eight Treasure Tea">
+        <h4>Eight Treasure Tea</h4>
+        <p>RM8(A Cup) RM16(A Jar) </p>      
+      </div>
+	  
+	   <div class="menu-item">
+        <img src="images/st.jpg" alt="Sour Plum Tea ">
+        <h4>Sour Plum Tea</h4>
+        <p>RM3.50(A Cup) RM12(A Jar) </p>      
+      </div>
+	  
+	   <div class="menu-item">
+        <img src="images/ch.jpg" alt="Chrysanthemum Honey Water">
+        <h4>Chrysanthemum Honey Water</h4>
+        <p>RM5(Small) RM15(A Jar) </p>      
       </div>
 	  
 	  
-	  
     </div>
   </div>
+    <footer style="
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f4f4f4;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+">
+  <a href="order.html">
+    <button style="
+      padding: 10px 20px;
+      background: #5a3fd9;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    ">
+      Go to Order Page
+    </button>
+  </a>
+</footer>
 
-  <!-- Category 2 -->
-<div class="category">
-  <h3>Meat Dishes</h3>
-  <div class="menu-grid">
-    <div class="menu-item">
-      <img src="images/fsm.jpg" alt="Fried Seafood with Mushroom">
-      <h4>Fried Seafood with Mushroom</h4>
-      <p>RM18(Small) RM26(Large)</p>
-      <button class="order-btn">Order</button>
-    </div>
 
-    <div class="menu-item">
-      <img src="images/bs.JPG" alt="Beef Salad">
-      <h4>Beef Salad</h4>
-      <p>RM22(Small) RM32(Large)</p>
-      <button class="order-btn">Order</button>
-    </div>
-
-    <div class="menu-item">
-      <img src="images/scnc.jpg" alt="Hand-Shredded Native Chicken">
-      <h4>Hand-Shredded Native Chicken</h4>
-      <p>RM22(Small) RM30(Large)</p>
-      <button class="order-btn">Order</button>
-    </div>
-  </div>
-</div>
-<a href="index.html" class="back-home-btn">← Back to Home</a>
-</main>
-  <footer>
-    © 2025 MEE TARIK TANJUNG MALIM
-  </footer>
-  
 </body>
 </html>
