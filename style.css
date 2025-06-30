@@ -110,6 +110,7 @@ footer {
  .navbar img {
   height: 100px;
   margin-left: 20px;
+  border-radius: 50px
 }
 
 section {
